@@ -1,0 +1,120 @@
+Flow Companion for Microsoft Windows
+Change Log
+
+Team Leader : EunSeok Oh
+Team Members : Giwon Son, Mingi Lee, Donggyun Im
+
+(C) Flow Team, All rights reserved.
+
+--------------------------------------------------------------------
+개발 도중 변경된 사항에 대해 기록하는 공간입니다.
+시간 역순으로 차례대로 기록해야하며, 형식을 맞춰서 기록 해주세요.
+--------------------------------------------------------------------
+
+2018-12-12 AM 02:35 / 오은석
+	fraFileExplorer
+	- 파일 목록에서 오른쪽 마우스 눌렀을 때 팝업 메뉴 표시
+	
+	참고 자료
+	- 객체명 선언 규칙 (http://onea01.tistory.com/137)
+
+2018-12-05 PM 15:23 / 오은석
+	modEncryption
+	- 암호화 모듈 교체 (http://today-hello.tistory.com/30)
+	- 암호키 만들기 (https://stackoverrun.com/ko/q/1991076)
+
+2018-12-05 PM 15:23 / 오은석
+	modSysData
+	- 로그인 및 로그아웃 시 세션 처리 되도록 기능 추가
+	
+	modSocket
+	- 파일 전송 모듈 추가
+	
+	modSysTheme
+	- flowTable 추가
+	- 값 가져오는 방법 추가 (https://blaseed.tistory.com/16)
+	
+2018-11-29 AM 10:08 / 오은석
+	modSysData
+	- DB 객체 추가
+	- 로그인 및 계정 생성 메소드 추가
+
+	modDBMS
+	- DB 생성 객체 추가
+	- 오류 메시지 해결 (https://yenaworldblog.wordpress.com/2018/01/24/java-mysql-%EC%97%B0%EB%8F%99%EC%8B%9C-%EB%B0%9C%EC%83%9D%ED%95%98%EB%8A%94-%EC%97%90%EB%9F%AC-%EB%AA%A8%EC%9D%8C/)
+	
+	modSysNotificator
+	- showMessage 메시지 박스 형태 지정 가능 변경 (http://hallang.tistory.com/137)
+
+2018-11-29 AM 10:08 / 오은석
+	modSysData
+	- 사용자 ID 가져오기
+
+	fraToolbar
+	- 로그인 및 비 로그인시 타이틀 메시지 변경
+	
+	fraLogin
+	- Enter키 입력시 아이디/비밀번호 체크 후 로그인 되도록 처리 (https://luvstudy.tistory.com/37)
+
+2018-11-28 PM 09:40 / 오은석
+	Project
+	- 메모리 문제 해결 10% 완료
+	
+	modCoreWindow
+	- ExitHandler 프로그램 실행 후 한번만 물어보며, 비로그인 시에만 물어보도록 수정
+	
+	modSysTheme
+	- 그라데이션 효과 및 프로그램 전체 디자인 완료
+	- 버튼 및 텍스트 컨트롤 테마 수정
+	
+	fraToolbar
+	- 디자인 변경 및 리사이즈 문제 해결
+	- 메뉴 선택 Method 처리 방법 및 동작 원리 변경
+	
+	fraLogin
+	- 디자인 변경
+	- 회원가입 기능 추가 작업 50% 완료
+
+
+2018-11-12 PM 11:51 / 오은석
+	modCoreWindow
+	- ExitHandler 프로그램 실행 후 한번만 물어봄 (테스트 목적 & 비로그인 시에만)
+	
+	modSysTheme
+	- 그라데이션 효과 및 프로그램 전체 디자인 75% 완료
+
+
+2018-11-07 PM 12:10 / 오은석
+	Project
+	- 실행 파일로 변환 (http://jsmooth.sourceforge.net/) 
+	
+	modCoreWindow
+	- 프로그램 창 아이콘 설정 (https://yonoo88.tistory.com/731)
+	
+	modSysNotificator
+	- 작업 표시줄 알람 관리 클래스 추가 (https://blog.silentsoft.org/archives/6, http://huikyun.tistory.com/261)
+	- 트레이 아이콘 이벤트 생성 (http://egloos.zum.com/pikasoo/v/472602)
+	
+	modSysTheme
+	- 시스템 테마 관리 클래스 추가 (http://www.ssiso.net/cafe/club/club1/board1/content.php?board_code=javaStudy%7Cswing&idx=2468)
+
+
+2018-11-01 AM 11:49 / 오은석
+	modCoreWindow
+	- Windows 기본 내장 테마 사용하도록 설정 (https://mytory.net/archives/64, http://blog.naver.com/sungback/90138574984)
+
+
+2018-11-01 AM 01:37 / 오은석
+	modChartPanel
+	- 차트를 독립 개체로 따로 분리하였으나 그라데이션이 적용되어 있지 않아 실 적용이 안됨.
+	- setData 메소드를 이용해 값을 지정한 후 사용 가능함 (de 갯수, en 갯수 순서 순)
+	
+	modCoreWindow
+	- 프로그램 시작 및 종료시에 메시지 박스 표시되도록 수정
+	- 프로그램 사이즈 조절시 크기가 올바르게 매칭안되는 문제가 간혹 있음 (수정 예정)
+	
+	modEncryption
+	- main 메소드 주석 처리함
+	
+	fraToolbar
+	- modCoreWindow의 상단 메뉴 부분 독립 프레임으로 분리
